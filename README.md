@@ -1,2 +1,2 @@
-# Prof-Front
+# Prog-Front
 Matéria de programação front-end
