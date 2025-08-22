@@ -1,9 +1,17 @@
-export function Avatar() {
-    const description = "Gregorio Y. Zara";
-    const Avatar = "https://i.imgur.com/7vQD0fPs.jpg";
-    
-    return (
-        <img className="avatar" src={Avatar} alt ={description} />
-    );
-    
+import { getImageUrl } from "./utils";
+
+export function Avatar({ person, size = 100, isSepia, thickBorder }) {
+  return (
+    <img
+      className="avatar"
+      src={getImageUrl(person)}
+      alt={person.name}
+      width={size}
+      height={size}
+    />
+  );
 }
+
+// Exemplo de como utilizar "props" como parâmetro
+// export function Avatar(props) {
+//   const { person, size } = props;
