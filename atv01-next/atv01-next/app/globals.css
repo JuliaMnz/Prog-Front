@@ -40,3 +40,16 @@ a {
     color-scheme: dark;
   }
 }
+
+.container-imagem {
+  text-align: center;
+  padding: 2%;
+}
+
+.foto {
+  border-radius: 25px;
+}
+
+.frase {
+  text-align: center;
+}
